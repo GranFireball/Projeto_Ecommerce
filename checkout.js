@@ -1,5 +1,5 @@
-import { atualizarPrecoCarrinho } from "./menuCarrinho";
-import { desenharProdutoNoCarrinhoSimples, lerLocalStorage, apagarDoLocalStorage, salvarLocalStorage } from "./utilidades";
+import { atualizarPrecoCarrinho } from "./src/menuCarrinho";
+import { desenharProdutoNoCarrinhoSimples, lerLocalStorage, apagarDoLocalStorage, salvarLocalStorage } from "./src/utilidades";
 
 function desenharProdutosCheckout() {
     

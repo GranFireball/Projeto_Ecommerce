@@ -5,7 +5,7 @@ export function renderizarCatalogo() {
     for(const produtoCatalogo of catalogo) {
         const cartaoProduto = `
         <div class='border-solid border-2 border-sky-500 w-48 m-2 flex flex-col p-2 justify-between shadow-xl shadow-slate-400 rounded-lg group ${produtoCatalogo.feminino ? "feminino" : "masculino"}' id="card-produto-${produtoCatalogo.id}">
-        <img src="./assets/img/${produtoCatalogo.imagem}" alt="Produto ${produtoCatalogo.id}" class="group-hover:scale-110 duration-300 my-3 rounded-lg">
+        <img src="./assets/${produtoCatalogo.imagem}" alt="Produto ${produtoCatalogo.id}" class="group-hover:scale-110 duration-300 my-3 rounded-lg">
         <p class="text-sm">${produtoCatalogo.marca}</p>
         <p class="text-sm">${produtoCatalogo.nome}</p>
         <p class="text-sm">$${produtoCatalogo.preco}</p>
